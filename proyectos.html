@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuente pixel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="icon" href="Imagenes/icono-gameboy.png">
+    <title>Game Boy</title>
+</head>
+<body>
+    <header>
+        <div>
+            <button type="button" class="on-off">ON - OFF</button>
+        </div>
+        <!-- <h2></h2> -->
+    </header>
+    <main>
+        <div class="fondo">
+
+            <div class="gray">
+
+                <h1>============ DOT MATRIX WITH STEREO SOUND ======</h1>
+                <!-- Cambiar a algo como por ejemplo el puesto que estoy buscando por ejemplo BackEnd developer -->
+
+                <div class="elementos">
+
+                    <div class="bateria">
+                        <p>O</p>
+                        <h3>BATTERY</h3>
+                    </div>
+    
+                    <div class="pantalla">
+                        <!-- <textarea name="content" id=""></textarea> -->
+                        <!--Cuando agrgue el contenido de la pantalla cambio el textarea -->
+                        <div class="contenido">
+
+                            <nav class="menu">
+                                <a href="perfil.html"><h2>PERFIL</h2></a>
+                                <a href="skills.html"><h2>SKILLS</h2></a>
+                                <a href="proyectos.html"><h2 class="activo">PROYECTOS</h2></a>
+                                <a href="contactos.html"><h2>CONTACTO</h2></a>
+                            </nav>
+
+                            <div class="proyectos">
+                                <div class="card" >
+                                    <h2 class="conversor" id="conversor" value="10">Conversor de monedas</h2>
+                                    <a href="https://github.com/Marquezf32/ConversorDeMonedas.git" target="_blank" rel="noopener noreferrer" id="cm "><img class="enlace-conver" src="Imagenes/enlace.png" alt=""></a>
+                                </div>
+
+                                <div class="card" >
+                                    <h2 id="literalura">LiterAlura</h2>
+                                    <a href="https://github.com/Marquezf32/Liter-Alura.git" target="_blank" rel="noopener noreferrer"><img src="Imagenes/enlace.png" alt=""></a>
+                                </div>
+
+                                <div class="card">
+                                    <h2 id="forohub">Foro-hub</h2>
+                                    <a href="https://github.com/Marquezf32/ForoHub.git" target="_blank" rel="noopener noreferrer"><img src="Imagenes/enlace.png" alt=""></a>
+                                </div>
+
+                                <div class="card">
+                                    <h2 id="comerce">E-Comerce</h2>
+                                    <a href="https://github.com/Marquezf32/Proyecto-Grupo16-PythonYFlask.git" target="_blank" rel="noopener noreferrer"><img src="Imagenes/enlace.png" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="hover-tecno">
+                    <img src="Imagenes/tecnologias/html.png" alt="" id="html">
+                    <img src="Imagenes/tecnologias/css.png" alt="" id="css">
+                    <img src="Imagenes/tecnologias/js.png" alt="" id="js">
+                    <img src="Imagenes/tecnologias/java.png" alt="" id="java">
+                    <img src="Imagenes/tecnologias/spring.png" alt="" id="spring">
+                    <img src="Imagenes/tecnologias/sql.png" alt="" id="sql">
+                    <img src="Imagenes/tecnologias/pytho.png" alt="" id="python">
+                    <img src="Imagenes/tecnologias/flask.png" alt="" id="flask">
+
+                </div>
+                
+            </div>
+
+            <div class="logotipo">
+                <h1 class="nombre">Facundo</h1>
+                <h1 class="game">MARQUEZ</h1>
+            </div>
+
+            <div class="botones">
+
+                <div class="pad" vlaue="4">
+                    
+                    <button class="izq" value="2" onclick="back()">V</button>
+
+                    <div class="vertical">
+                        <button class="sup">V</button>
+                        <button class="inf">V</button>
+                    </div>
+
+                    <button class="der" value="4" onclick="pasador()">V</button>
+                    
+                </div>
+
+                <div class="opciones">
+                    
+                    <div class="a-b">
+                        <button id="proyectos" onclick="selectProyectos()">A</button>
+                        <button id="descarga" onclick="descargar()">B</button> 
+                    </div>
+                    <div class="info-ab">
+                        <h3>DESCARGAR CV</h3>
+                        <h3 class="boton-b">OK</h3>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        
+    </main>
+    <footer></footer>
+    <script src="magia.js"></script>
+</body>
+</html>

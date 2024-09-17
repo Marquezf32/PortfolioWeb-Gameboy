@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuente pixel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="icon" href="Imagenes/icono-gameboy.png">
+    <title>Game Boy</title>
+</head>
+<body>
+    <header>
+        <div>
+            <button type="button" class="on-off">ON - OFF</button>
+        </div>
+        <!-- <h2></h2> -->
+    </header>
+    <main>
+        <div class="fondo">
+
+            <div class="gray">
+
+                <h1>============ DOT MATRIX WITH STEREO SOUND ======</h1>
+                <!-- Cambiar a algo como por ejemplo el puesto que estoy buscando por ejemplo BackEnd developer -->
+
+                <div class="elementos">
+
+                    <div class="bateria">
+                        <p>O</p>
+                        <h3>BATTERY</h3>
+                    </div>
+    
+                    <div class="pantalla">
+                       
+                        <div class="contenido">
+
+                            <nav class="menu">
+                                <a href="perfil.html"><h2>PERFIL</h2></a>
+                                <a href="skills.html"><h2 class="activo">SKILLS</h2></a>
+                                <a href="proyectos.html"><h2>PROYECTOS</h2></a>
+                                <a href="contactos.html"><h2>CONTACTO</h2></a>
+                            </nav>
+
+
+                            <div class="skills">
+                                
+                                <div class="section-skills">
+                                    <a href="skills.html"><h2 class="activo">SOFT</h2></a>
+                                    <a href="skills2.html"><h2>HARD</h2></a>
+                                </div>
+
+                                <div class="fila">
+
+                                    <div class="contenedor-skill">
+                                        <img src="Imagenes/Equipo.png" alt="">
+                                        <h3>TRABAJO EN EQUIPO</h3>
+                                    </div>
+
+                                    <div class="contenedor-skill" id="comunicacion">
+                                        <img src="Imagenes/reunion.png" alt="">
+                                        <h3>COMUNICACION</h3>
+                                    </div>
+
+                                    <div class="contenedor-skill">
+                                        <img src="Imagenes/Mancuerna.png" alt="">
+                                        <h3>DEDICACION Y ESFUERZO</h3>
+                                    </div>
+
+                                </div>
+
+                                <div class="fila-2">
+
+                                    <div class="contenedor-skill">
+                                        <img src="Imagenes/clock_465280.png" alt="">
+                                        <h3>GESTION DEL TIEMPO</h3>
+                                    </div>
+
+                                    <div class="contenedor-skill">
+                                        <img src="Imagenes/icons8-puzle-512.png" alt="">
+                                        <h3>RESOLUCION DE PROBLEMAS</h3>
+                                    </div>
+
+                                </div> 
+                                    
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="logotipo">
+                <h1 class="nombre">Facundo</h1>
+                <h1 class="game">MARQUEZ</h1>
+            </div>
+
+            <div class="botones">
+
+                <div class="pad"vlaue="2">
+                    
+                    <button class="izq" value="4" onclick="back()">V</button>
+
+                    <div class="vertical">
+                        <button class="sup">V</button>
+                        <button class="inf">V</button>
+                    </div>
+
+                    <button class="der" value="2" onclick="pasador()">V</button>
+                    
+                </div>
+
+                <div class="opciones">
+                    
+                    <div class="a-b">
+                        <button type="button">A</button>
+                        <button id="descarga" onclick="descargar()">B</button> 
+                    </div>
+                    <div class="info-ab">
+                        <h3>DESCARGAR CV</h3>
+                        <h3 class="boton-b">OK</h3>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        
+    </main>
+    <footer></footer>
+    <script src="magia.js"></script>
+</body>
+</html>
